@@ -1,8 +1,8 @@
 import random, os, pygame, threading
-from python_mindwave_mobile.MindwaveDataPointReader import MindwaveDataPointReader
+from .python_mindwave_mobile.MindwaveDataPointReader import MindwaveDataPointReader
 from pygame.locals import *
-from datathread import GetData
-from objects import Item
+from .datathread import GetData
+from .objects import Item
 
 #initialize font module
 pygame.init()
